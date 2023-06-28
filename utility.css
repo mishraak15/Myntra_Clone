@@ -1,0 +1,256 @@
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0;
+}
+
+.f-direction-c {
+    flex-direction: column;
+}
+
+/* .f-direction-r{
+    flex-direction: row;
+} */
+
+.justify-c {
+    justify-content: center;
+}
+
+.align-c {
+    align-items: center;
+}
+
+.justify-sb {
+    justify-content: space-between;
+}
+
+.f-b {
+    font-weight: bolder;
+}
+
+.lh-1 {
+    line-height: 27px;
+}
+
+.ptb-1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.mx-2 {
+    margin: 0px 13.5px;
+}
+
+.mx-3 {
+    margin: 1vw 2.4vw;
+    flex-wrap: wrap;
+}
+
+.my-1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.my-0 {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.my-3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.my-2 {
+    margin: 2vw 2.4vw;
+}
+
+.mtb-2 {
+    margin: 1.6vw 0;
+}
+
+.mtb-1 {
+    margin: 1vw 0;
+}
+
+
+
+.mtb-3 {
+    margin: 2.1vw 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-1 {
+    margin-top: 7px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.m-a {
+    margin: auto;
+}
+
+.mx-1 {
+    margin: 0px 6px;
+}
+
+.f-1 {
+    font-size: 2.05vmin;
+}
+
+.f-2 {
+    font-size: 11px;
+}
+
+.f-3 {
+    font-size: 14px;
+}
+
+.f-4 {
+    font-size: 13px;
+}
+
+.f-5 {
+    font-size: 12px;
+}
+
+.f-6 {
+    font-size: 13px;
+}
+
+.w-2 {
+    width: 6vmin;
+    height: 6vmin;
+}
+
+.w-1 {
+    width: 3.6vmin;
+    height: 3.6vmin;
+}
+
+.w-3 {
+    width: 142px;
+    height: 54px;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.filter-i {
+    filter: invert(0.4);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+strong {
+    color: black;
+}
+
+.mx-s {
+    margin: 0px 15px;
+}
+
+.mx-a {
+    margin: 0 38px;
+}
+
+.mx-b {
+    margin: 10px 54px;
+}
+
+.c-p {
+    color: #666666;
+}
+
+.c-b {
+    color: black;
+}
+
+.c-p-l {
+    color: #979797;
+}
+
+.c-p-b-l {
+    background-color: #c4c4c410;
+    
+}
+
+.c-s {
+    color: rgb(34, 34, 219);
+}
+
+.li-d {
+    list-style: decimal;
+}
+
+.li-d::marker {
+    font-size: 12.7px;
+    color: #979797;
+}
+
+.c-1 {
+    color: #f36770;
+}
+
+.c-2 {
+    color:#fc91ce;
+}
+
+.c-3 {
+    color: #f47a42;
+}
+
+.c-4{
+    color: #f5ca3d;
+}
+
+.c-5 {
+    color: #51c9c3;
+}
+
+.c-6 {
+    color: #e5305a;
+}
+
+.opt-g {
+    font-size: 12.8px;
+    font-weight: bold;
+}
+
+.py-1 {
+    padding: 0px 15px;
+}
+
+.p-2 {
+    padding: 14px 26px;
+}
+
+.f-sb {
+    font-family: 'Roboto', sans-serif;
+}
+
+.f-sb:hover{
+    scale: 1.02;
+    font-weight: bold;
+}
+
+.justify-sa{
+    justify-content: space-around;
+}
